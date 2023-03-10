@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.head{
+	display: flex;
+	flex-direction: column;
+   justify-content: center;
+    align-items: center;
+}
+.black-jack-row1{
+  display: flex;
+   justify-content: space-between;
+    align-items: center;
+}
+
+.your-box{
+	background-color: darkgreen;
+	width: 30rem;
+	height: 20rem;
+	border: 1px solid black;
+  
+}
+.dealer-box{
+	background-color: darkgreen;
+	width: 30rem;
+	height: 20rem;
+	border: 1px solid black;
+}
+.blue{
+	background: blue;
+}
+.red{
+	background: red;
+}
+.yellow{
+	background: yellow;
+}
+
+button{
+  width: 4rem;
+  height: 2rem;
+  border: none;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+.ok{
+	margin-left: 12rem;
+	color: white;
+}
+span{
+	margin-left: 5px;
+}
+.black-jack-row2 {
+	display: flex;
+	flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    background-color: darkgreen;
+	border: 1px solid black;
+	
+
+}
+.table{
+	display: flex;
+	flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    background-color: darkgreen;
+	border: 1px solid black;
+}
+
+img{
+	width: 5rem;
+	height: 6Srem;
+	margin: 5px;
+}
